@@ -1,0 +1,267 @@
+.section-products{
+    display:flex;
+}
+
+/** colonne du menu **/
+
+.column{
+    background-color: #323232;
+    display:flex;
+    flex-direction: column;
+    color:#ffffff;
+    gap:4rem;
+}
+
+.sub-menu{
+    margin-left:1rem;
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: capitalize;
+}
+
+.sub-menu img{
+    height:24px;
+}
+
+/** page tableau **/
+
+.products{
+    background-color: #F8F8F8;
+    width:85%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+}
+
+.title{
+    width:100%;
+    background-color: #F0515A;
+    height:64px;
+    display: flex;
+    align-items: center;
+    color:#ffffff;
+}
+
+h2{
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    width:500px;
+    height:42px;
+}
+
+
+.cta{
+    position: absolute;
+    right:10%;
+    top:15%;
+}
+
+.primaryBtn{
+    background-color: #F0515A;
+    text-transform: capitalize;
+    color:#ffffff;
+    padding:0.5rem 2rem;
+    border-color: #F0515A;
+}
+
+.trashBtn{
+    background-color: #c4c4c4;
+    text-transform: capitalize;
+    color:#333;
+    padding:0.5rem 2rem;
+    border-color: #F0515A;
+}
+
+thead{
+    background-color: #323232;
+    color:#ffffff;
+}
+
+th{
+    border: solid 2px;
+    border-color: #323232;
+    border-collapse: collapse;
+    padding:0.5rem;
+}
+
+td{
+    background-color: #ffffff;
+    padding:0.5rem;
+}
+
+/** modal **/
+
+
+.hidden{
+    display:none;
+}
+
+
+.modal{
+    position: absolute;
+    background-color: #ffffff;
+    width:50%;
+    height:70%;
+    top:10%;
+    left:30%;
+    border: solid 2px;
+    border-color: #323232;
+}
+
+/** modal ajouter/modifier **/
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap:2rem;
+}
+
+.formulaire h3{
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+
+.formulaire .title{
+    justify-content: space-between;
+}
+
+.formulaire button{
+    display:flex;
+    align-items: center;
+    margin-right:2rem;
+    padding:0.5rem 1rem;
+    background-color: #F0515A;
+    color:#ffffff;
+    border-color: #ffffff;
+}
+
+.detail-article{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+form{
+    margin-top: 5rem;
+    display: flex;
+    gap:2rem;
+}
+
+
+.form-label{
+    text-transform: capitalize;
+    margin-left:2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label input{
+    width:400px;
+}
+
+.description-article{
+    text-transform: capitalize;
+    margin-left:2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-article input{
+    width:400px;
+    height:150px;
+}
+
+.secondaryBtn{
+    display:flex;
+    justify-content: right;
+}
+
+.secondaryBtn{
+    margin-right:6rem;
+}
+
+/** modal voir **/
+
+.presentation-article{
+    display:flex;
+    gap:2rem;
+}
+
+.image-article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;;
+}
+
+.image-article img{
+    width:200px;
+}
+
+
+.view-article h3{
+    margin-left: 2rem;
+    text-transform: capitalize;
+}
+
+.view-article .title{
+    justify-content: space-between;
+}
+
+.view-article button{
+    display:flex;
+    align-items: center;
+    margin-right:2rem;
+    padding:0.5rem 1rem;
+    background-color: #F0515A;
+    color:#ffffff;
+    border-color: #ffffff;
+}
+
+.detail-article{
+    margin-right: 2rem;
+}
+
+.titre-article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre-article .stock-article p{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+span{
+    text-transform: capitalize;
+}
+
+.ref-article{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+/** modal trash **/
+
+
+.title-trash{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
